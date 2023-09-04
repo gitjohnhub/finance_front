@@ -15,6 +15,10 @@
           <file-outlined />
           <span><RouterLink to="/board">Board</RouterLink></span>
         </a-menu-item>
+        <a-menu-item key="4">
+          <file-outlined />
+          <span><RouterLink to="/weight">Weight</RouterLink></span>
+        </a-menu-item>
       </a-menu>
     </a-layout-sider>
     <a-layout>

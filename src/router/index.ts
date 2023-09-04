@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/board',
       name: 'board',
       component: () => import('../views/BoardView.vue')
+    },
+    {
+      path: '/weight',
+      name: 'weight',
+      component: () => import('../views/WeightView.vue')
     }
   ]
 })
