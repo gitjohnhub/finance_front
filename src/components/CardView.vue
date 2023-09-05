@@ -1,11 +1,5 @@
 <template>
-  <a-card hoverable style="width: 300px">
-    <template #cover>
-      <img
-        alt="example"
-        src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-      />
-    </template>
+  <a-card hoverable style="width: 300px;border-radius: 10px;" :bodyStyle="{background:'#dd6236'}">
     <template #actions>
       <setting-outlined key="setting" />
       <edit-outlined key="edit" />

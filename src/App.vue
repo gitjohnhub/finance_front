@@ -6,7 +6,7 @@ import NavView from './components/NavView.vue';
    <a-config-provider
     :theme="{
       token: {
-        colorPrimary: '#00b96b',
+        colorPrimary: '#ffd299',
       },
     }"
   >
